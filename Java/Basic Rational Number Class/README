@@ -3,6 +3,30 @@ Was tasked with implementing them.
 
 ComplexTest was provided for testing the previous class.
 
-file1 - file6 are sample files for use with testing.
+The correct output should be:
 
-Instructions for testing are within ComplexTest.java. Repeating them here for clarity.
+3/2
+4/5
+23/10
+7/10
+6/5
+15/8
+2/3
+false
+true
+1
+-1
+0
+1.5
+-9/2
+-9/2
+Cannot create Rational with zero denominator
+Cannot create reciprocal of zero
+Cannot divide by zero
+1
+0
+3
+Initialization string for Rational must be: 'integer' or 'integer/integer'
+Initialization string for Rational must be: 'integer' or 'integer/integer'
+Initialization string for Rational must be: 'integer' or 'integer/integer'
+Initialization string for Rational must be: 'integer' or 'integer/integer'
