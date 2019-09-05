@@ -1,3 +1,5 @@
+
+
 Queens [-v] n
 
 -v: to verbosely write out all possible combinations in array format (N columns, N values)
@@ -8,4 +10,4 @@ Queens [-v] n
  This program works speedily up to 12 queens, where it takes a minute.
  Beyond that, It is slow.
 
-This proram had orignally been written by me in the fall of 2015, during my first Java class, near the end of the quarter.
+This program had orignally been written by me in the fall of 2015, during my first Java class, near the end of the quarter.
