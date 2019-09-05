@@ -1,1 +1,8 @@
+Was provided with Complex.java with functions left unimplemented (give or take a few, I do not remember if the parsing function was provided fully implemented).
+Was tasked with implementing them.
 
+ComplexTest was provided for testing the previous class.
+
+file1 - file6 are sample files for use with testing.
+
+Instructions for testing are within ComplexTest.java. Repeating them here for clarity.
