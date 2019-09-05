@@ -21,6 +21,3 @@ clean:
 
 spotless: clean
 	rm -f ComplexTest
-
-submit:
-	submit cmps012a-pt.f15 pa6 Complex.java ComplexTest.java Makefile
