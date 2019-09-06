@@ -1,0 +1,32 @@
+The goal here was to take a Java progarm and redo it in C.
+
+
+This programs takes a file written in the format:
+N
+a_1 b_1 [w_1]
+a_2 b_2 [w_2]
+a_3 b_3 [w_3]
+...
+a_N b_N [w_N]
+
+where N is the number of vertices within a graph,  
+a_x b_x is an edge going from integer a_x to b_x,
+and w_1 is an optional value that represents the weight of said edge.
+
+a_1 to a_N are numbers 1 to N respectively.
+
+----
+The program takes these values, and outputs 
+```
+Opened input.data for input.
+n = N
+m = V
+1       [5, 4, 2, 3]
+2       []
+3       [4]
+4       [6, 2, 6]
+...
+N       [1]
+```
+
+`java graph input.data` is an example of the behavior required.
