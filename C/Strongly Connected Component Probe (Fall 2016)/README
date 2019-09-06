@@ -1,0 +1,21 @@
+Fall 2016
+Uses the Graph Edge Printer headers.
+
+Does Depth First Search on graph, prints out node discovery time, finish time, and parent.
+Inverts graph, then does DFS on resulting inverse, and prints out the same PLUS the DFS ROOT NODES (AKA the SCC leader of a Node).
+
+
+compile with `[CCOMPILER] -Wall -Wextra scc03.c intVec.c loadGraph.c dfsTrace1.c dfsPhase2.c -o scc03`
+run as  `./scc03 -V [-u] INPUTFILE`
+
+For whatever reason at the time, the -V flag was mandatory.
+The -u flag on the other hand enables an optional feature that, when loading the Graph Edges from a file, 
+adds an inverted copy of every edge, if one does not already exist.
+
+The following warning shows up. This is regretable.
+```
+dfsPhase2.c: In function ‘dfsPhase2’:
+dfsPhase2.c:7:55: warning: unused parameter ‘n’ [-Wunused-parameter]
+    7 | void dfsPhase2(char** color, IntVec* adjVertices, int n, int* discoverTime, int* finishTime,
+      |                                                   ~~~~^
+```
