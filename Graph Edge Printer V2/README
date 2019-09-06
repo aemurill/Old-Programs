@@ -1,0 +1,25 @@
+Fall 2016
+ `[CCOMPILER] -Wall -Wextra graph02.c loadGraph.c intList.c intVec.c -o graph02`
+ to compile graph02.exe
+ 
+ `[CCOMPILER] -Wall -Wextra intVecTest.c intList.c intVec.c -o intVecTest`
+ to compile intVecTest.exe
+ 
+ graph02:
+  Similar output to Graph Edge Printer (V1), but can be used in either List or Vector mode.
+  Must be called as `./graph02 [FLAG] input.file` where FLAG is either -L for List or -V for Vector.
+  
+  ex1 & ex2 are examples of valid input.
+  the remaining examples are not.
+ 
+ 
+ 
+ intVecTest:
+  Checks that the Vector object (intVecNode) works properly in regards to:
+    returning TOP
+    returning X index
+    returning SIZE
+    returning CAPACITY
+    returning an empty intVecNode
+    pushing onto the Vector
+  For some reason it doesn't test popping off the Vector. I do not remember quite why that was the case. 
