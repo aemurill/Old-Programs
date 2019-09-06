@@ -1,0 +1,5 @@
+` gcc-9.2.0 -Wall -Wextra graph01.c intList.c -o graph01`
+to compile graph01.exe
+run as './graph01.exe [inputfile]
+
+
