@@ -1,0 +1,5 @@
+`java graph input.data` for example.
+
+'java graph [input file]'
+
+file must be in the format explained on the previous folder's README
